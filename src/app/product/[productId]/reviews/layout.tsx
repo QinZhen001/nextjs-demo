@@ -9,10 +9,9 @@ export default function ProductDetailsLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>{children}
-        <div>Layout test</div>
-      </body>
-    </html>
+    <>
+      {children}
+      <div>Layout test</div>
+    </>
   )
 }

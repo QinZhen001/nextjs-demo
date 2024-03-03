@@ -22,8 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-          <header>
-            <p>header</p>
+          <header style={{
+            backgroundColor: 'lightblue'
+          }}>
+            <div>header</div>
           </header>
           {children}
       </body>
