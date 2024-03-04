@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -9,5 +11,9 @@ export const metadata: Metadata = {
 }
 
 export default function Blog() {
-  return <h1>Blog</h1>;
+  return <>
+    <h1>Blog</h1>
+    <Link href={"/blog/first"}>first blog</Link>
+    <Link href={"/blog/second"}>second blog</Link>
+  </>;
 }
