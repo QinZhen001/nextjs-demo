@@ -9,7 +9,10 @@
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "gray-matter": "^4.0.3"
+    "gray-matter": "^4.0.3",
+    "remark": "^15.0.0",
+    "remark-html": "^16.0.1",
+    "date-fns": "^4.1.0"
   },
   "engines": {
     "node": ">=18"
